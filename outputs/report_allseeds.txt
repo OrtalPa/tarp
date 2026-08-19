@@ -1,0 +1,51 @@
+Combined across-seeds report — seeds present: [0, 11, 42]
+============================================================
+
+### Exp4 — univariate Spearman(feature, gap) per seed
+ seed  frozen_acc  intra_inter_ratio  knn_acc  silhouette  eff_dim  anisotropy
+    0      -0.783              0.726   -0.541      -0.469    0.174       0.050
+   11      -0.772              0.711   -0.502      -0.445    0.183       0.041
+   42      -0.834              0.734   -0.588      -0.538    0.155       0.059
+
+mean ± std across seeds:
+                    mean    std
+frozen_acc        -0.796  0.033
+intra_inter_ratio  0.723  0.012
+knn_acc           -0.543  0.043
+silhouette        -0.484  0.048
+eff_dim            0.170  0.015
+anisotropy         0.050  0.009
+
+### Exp4 — leave-one-dataset-out per seed
+ seed  frozen_acc_R2  frozen_acc_spear  all_R2  all_spear
+    0          0.342             0.743   0.152      0.575
+   11          0.349             0.734   0.130      0.566
+   42          0.375             0.799   0.181      0.626
+
+mean ± std:
+                   mean    std
+frozen_acc_R2     0.355  0.017
+frozen_acc_spear  0.759  0.035
+all_R2            0.154  0.026
+all_spear         0.589  0.033
+
+### Exp1 — partial(shift, gap | frozen_acc) per seed
+ seed  n  partial(shift,gap|frozen_acc)
+    0 44                          0.355
+   11 44                          0.390
+   42 44                          0.392
+
+mean ± std:
+                                mean    std
+partial(shift,gap|frozen_acc)  0.379  0.021
+
+### Exp5 — top-layer intra_inter improvement ↔ gap per seed
+ seed  n  improve_vs_gap_spearman
+    0 44                    0.726
+   11 44                    0.701
+   42 44                    0.710
+
+mean ± std:
+                          mean    std
+improve_vs_gap_spearman  0.712  0.013
+

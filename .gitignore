@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# harness / local artifacts
+# Everything under outputs/ is local-only by default; the exceptions below track
+# the lightweight results, figures and run metadata needed to write the report.
+outputs/*
+!outputs/*.txt
+!outputs/artifacts/
+!outputs/figures/
+!outputs/results/
+!outputs/runs/
+outputs/runs/*
+!outputs/runs/probe/
+!outputs/runs/ft/
+
+# never track weights, frozen representations, raw logits or generated adapter cards
+outputs/**/*.safetensors
+outputs/**/*.npy
+outputs/**/*.npz
+outputs/**/*.bin
+outputs/**/*.pt
+outputs/**/*.md
+
+.cache/
+wandb/
+
+# reference PDFs (not code, kept local only)
+*.pdf
+
+# local report context
+RESEARCH_QUESTION_SUBMISSION.md
+report prompt.md

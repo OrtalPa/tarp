@@ -1,0 +1,39 @@
+[project]
+name = "tar-prediction"
+version = "0.1.0"
+description = "Predicting the need for task-aware adaptation (TAR) from frozen representations. NLP final project, based on MulTaBench."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=3.0",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "tqdm>=4.66",
+    "torch>=2.7",
+    "transformers>=4.44",
+    "peft>=0.11",
+    "accelerate>=0.33",
+]
+
+[tool.uv]
+package = false
+
+# The default PyPI torch wheel does not cover every accelerator build, so pull torch from
+# the matching wheel index below instead. Harmless on CPU-only machines.
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

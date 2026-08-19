@@ -1,0 +1,127 @@
+[
+  {
+    "text": "im feeling rather rotten so im not very ambitious right now",
+    "top_gained": [
+      [
+        "rotten",
+        0.4582790732383728
+      ],
+      [
+        "rather",
+        0.007951907813549042
+      ],
+      [
+        "feeling",
+        -0.0009524226188659668
+      ],
+      [
+        "very",
+        -0.011080091819167137
+      ],
+      [
+        "not",
+        -0.01766950637102127
+      ]
+    ]
+  },
+  {
+    "text": "im updating my blog because i feel shitty",
+    "top_gained": [
+      [
+        "shitty",
+        0.35884374380111694
+      ],
+      [
+        "up",
+        -0.0024709152057766914
+      ],
+      [
+        "##dating",
+        -0.024083636701107025
+      ],
+      [
+        "my",
+        -0.029914533719420433
+      ],
+      [
+        "i",
+        -0.03904939442873001
+      ]
+    ]
+  },
+  {
+    "text": "i never make her separate from me because i don t ever want her to feel like i m ashamed with her",
+    "top_gained": [
+      [
+        "ashamed",
+        0.387262761592865
+      ],
+      [
+        "like",
+        0.005619307979941368
+      ],
+      [
+        "feel",
+        -0.007599485106766224
+      ],
+      [
+        "t",
+        -0.008785510435700417
+      ],
+      [
+        "with",
+        -0.010371491312980652
+      ]
+    ]
+  },
+  {
+    "text": "i left with my bouquet of red and yellow tulips under my arm feeling slightly more optimistic than when i arrived",
+    "top_gained": [
+      [
+        "optimistic",
+        0.37208396196365356
+      ],
+      [
+        "yellow",
+        0.004170894622802734
+      ],
+      [
+        "arm",
+        -0.0008189287036657333
+      ],
+      [
+        "under",
+        -0.0024005183950066566
+      ],
+      [
+        "red",
+        -0.002579059451818466
+      ]
+    ]
+  },
+  {
+    "text": "i was feeling a little vain when i did this one",
+    "top_gained": [
+      [
+        "vain",
+        0.3992863595485687
+      ],
+      [
+        "feeling",
+        0.0074873678386211395
+      ],
+      [
+        "a",
+        -0.0010905321687459946
+      ],
+      [
+        "little",
+        -0.01173311471939087
+      ],
+      [
+        "when",
+        -0.020225094631314278
+      ]
+    ]
+  }
+]

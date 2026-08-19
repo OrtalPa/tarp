@@ -1,0 +1,8 @@
+{
+  "emotion->agnews": 0.8360526315789474,
+  "emotion->banking77": 0.85370611183355,
+  "agnews->emotion": 0.5495,
+  "agnews->banking77": 0.888816644993498,
+  "banking77->emotion": 0.6015,
+  "banking77->agnews": 0.8521052631578947
+}
