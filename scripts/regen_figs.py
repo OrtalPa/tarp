@@ -1,6 +1,6 @@
-"""Regenerate the 7 report.md figures into outputs/figures/regenerated/.
+"""Regenerate the 7 report figures into outputs/figures/regenerated/.
 
-Rebuilds every figure embedded in report.md with the post-renumber experiment-number
+Rebuilds every figure embedded in the report with the post-renumber experiment-number
 titles (Exp1/Exp3/Exp4/Exp5). On every scatter, domain is encoded as color and model as
 marker shape (so each point shows both without per-point text labels, which previously
 overlapped into unreadable clumps). The exp3 feature-vs-gap figure is reconstructed here

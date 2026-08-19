@@ -32,6 +32,9 @@ wandb/
 # reference PDFs (not code, kept local only)
 *.pdf
 
-# local report context
+# local report context (the write-up is submitted separately, not tracked here)
 RESEARCH_QUESTION_SUBMISSION.md
 report prompt.md
+report.md
+report_new.md
+tarp-overleaf.zip
