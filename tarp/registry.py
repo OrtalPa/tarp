@@ -24,7 +24,7 @@ MODELS: dict[str, ModelSpec] = {
     "modernbert": ModelSpec("modernbert", "answerdotai/ModernBERT-base", "modernbert"),
 }
 
-# --- datasets (see PROJECT.md §6; quirks encoded here) ----------------------
+# --- datasets (quirks encoded here) -----------------------------------------
 DATASETS: dict[str, DatasetSpec] = {
     # SST-2 test labels are hidden (-1) → evaluate on the validation split.
     "sst2": DatasetSpec(

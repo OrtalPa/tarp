@@ -2,7 +2,7 @@
 
 ``mean`` is the pinned primary (masked average over real tokens); ``cls`` is the
 secondary robustness view (first token: ``[CLS]`` for BERT/DistilBERT, ``<s>`` for
-RoBERTa). See PROJECT.md §10.
+RoBERTa).
 """
 
 from __future__ import annotations

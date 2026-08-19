@@ -17,7 +17,7 @@ trades away.
 
 The headline result: frozen-probe accuracy alone orders datasets by adaptation need almost
 monotonically (Spearman ≈ −0.80), so the need for adaptation can be estimated before any
-fine-tuning takes place. Full design in `PROJECT.md`.
+fine-tuning takes place.
 
 ## Layout
 
@@ -40,9 +40,6 @@ scripts/               run drivers and one-off helpers (full grid, figure regene
 tests/                 unit tests for the pure layers + one end-to-end smoke test
 outputs/               results.parquet, figures, text reports and per-run metadata
   figures/regenerated/ the final figure set
-
-PROJECT.md             research design: questions, datasets, protocol, results
-IMPLEMENTATION_PLAN.md development log: module layering, build order, progress
 ```
 
 ## Running it

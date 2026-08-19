@@ -1,7 +1,7 @@
 """tarp — TAR-Prediction harness.
 
 Predicting the need for task-aware adaptation (TAR) from frozen representations.
-See PROJECT.md for the research design and the plan for the architecture.
+See the project write-up for the research design and the architecture plan.
 """
 
 __version__ = "0.1.0"
